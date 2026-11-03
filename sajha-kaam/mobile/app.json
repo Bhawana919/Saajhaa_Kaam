@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Sajha Kaam",
+    "slug": "sajha-kaam",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "sajhakaam",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.sajhakaam.demo"
+    },
+    "android": {
+      "package": "app.sajhakaam.demo",
+      "adaptiveIcon": {
+        "backgroundColor": "#B03D1E",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "allowBackup": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "name": "Sajha Kaam \u00b7 \u0938\u093e\u091d\u093e \u0915\u093e\u092e",
+      "themeColor": "#B03D1E",
+      "backgroundColor": "#F1ECE3"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-localization",
+      "expo-secure-store",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#B03D1E"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "backgroundColor": "#F1ECE3"
+  }
+}

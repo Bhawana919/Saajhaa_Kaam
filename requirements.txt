@@ -1,0 +1,7 @@
+# All Python dependencies for the Sajha Kaam kit, in one go (Python 3.12):
+#   pip install -r requirements.txt
+#
+# Only the backend uses Python. The mobile app and slides use npm instead:
+#   cd sajha-kaam\mobile;  npm install
+#   cd sajha-kaam-slides;  npm install
+-r sajha-kaam/backend/requirements-dev.txt
